@@ -60,3 +60,24 @@ button{
     color: white;
     font-weight: bold;
 }
+
+.imageinfo{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+.infohead{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info{
+    border: 2px solid blue;
+    border-radius: 2px;
+    text-align: center;
+}
