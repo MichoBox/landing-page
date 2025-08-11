@@ -122,12 +122,17 @@ a{
 }
 
 .footer{
+    display: flex;
     background-color: #1F2937;
-    margin-top: auto;
-    bottom: 0px;
-    width: 100%;
     color: white;
-    text-align: center;
+    justify-content: center;
     padding: 10px;
     font-size: 20px;
+    margin-top: auto;
+}
+
+.mainc{
+    min-height: 100vh;    
+    display: flex;
+    flex-direction: column;
 }
